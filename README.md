@@ -4,6 +4,13 @@ In this repository we collect valuable content to bring the SANSA stack to Datab
 ## Instruction Slides
 Within these [slides](https://github.com/SANSA-Stack/SANSA-Databricks/blob/main/SANSA%20through%20Databricks.pdf) you get a step by step tutorial, how-to setup Databricks and SANSA, such that you can use SANSA within you browser
 
+## Spark configuration
+int he setup of DAtabricks cluster one has to set the following lines in a Spark setup:
+```
+spark.databricks.delta.preview.enabled true
+spark.serializer org.apache.spark.serializer.KryoSerializer
+spark.kryo.registrator net.sansa_stack.rdf.spark.io.JenaKryoRegistrator, net.sansa_stack.query.spark.sparqlify.KryoRegistratorSparqlify
+```
 
 ## Sansa Jar
 Jars are available in the respective Release. Releases are listed [here](https://github.com/SANSA-Stack/SANSA-Stack/releases)
