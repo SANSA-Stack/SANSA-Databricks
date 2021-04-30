@@ -20,5 +20,5 @@ One sample file to process on Machine Learning pipelines is the Linked Movie Dat
 
 ## Sample Databricks Notebooks
 Here we list Databricks notebooks to import for several sample SANSA usages
-
+- [Read In RDF data into SANSA](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/6924783690087984/4016092937227443/8524188481975304/latest.html)
 - [DistSim: RDF Similarity Estimation](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/6924783690087984/3848631259312629/8524188481975304/latest.html)
